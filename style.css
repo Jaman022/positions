@@ -1,0 +1,49 @@
+.block {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.block2 {
+    background-color: lightblue;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    top: 100px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.absolute-child {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.fixed-block {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
